@@ -364,3 +364,38 @@ Navbar
     margin-right: 0;
   }
 }
+
+/*
+=============== 
+Page
+===============
+*/
+.page {
+  background: red;
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+.page-footer {
+  height: 4rem;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-footer p {
+  margin-bottom: 0;
+}
+.footer-logo, .page-footer a {
+  color:var(--primary-500);
+}
+/*
+=============== 
+Footer
+===============
+*/
